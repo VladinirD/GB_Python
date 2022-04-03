@@ -11,18 +11,3 @@ elif days <= 0 and hours < 0:
   print(f'{minutes} мин {seconds} сек')
 else:
   print(f'{seconds} сек')
-
-# input_seconds = int(input('Введите время в секундах: '))
-# days = input_seconds // 86400
-# hours = input_seconds // 3600
-# minutes = input_seconds // 60 % 60
-# seconds = input_seconds % 60
-#
-# if input_seconds <= 59:
-#     print(f'{input_seconds} сек')
-# elif input_seconds <= 3599:
-#     print(f'{minutes} мин {seconds} сек')
-# elif input_seconds <= 86399:
-#     print(f'{hours} ч {minutes} мин {seconds} сек')
-# else:
-#     print(f'{days} дн {hours} ч {minutes} мин {seconds} сек')
