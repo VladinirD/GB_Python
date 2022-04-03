@@ -1,0 +1,62 @@
+for num in range(1, 101, 1):
+    strings_list = list(str(num))
+    # print(strings_list)
+    if int(strings_list[-1]) == 1 and num != 11:
+        print(f'{num} процент')
+    elif int(strings_list[-1]) > 1 and int(strings_list[-1]) < 5:
+        if 14 >= num > 11:
+            print(f'{num} процентов')
+        else:
+            print(f'{num} процента')
+    else:
+        print(f'{num} процентов')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+for i in range(1, 101, 1):
+    new_str = str(i)
+    # print(new_str)
+    new_list = list(new_str)
+    # print(new_list)
+    if int(new_list[-1]) == 1 and i != 11:
+        print('{} процент'.format(i))
+    elif int(new_list[-1]) > 1 and int(new_list[-1]) <= 4:
+        if i > 10 and i <= 14:
+            print('{} процентов'.format(i))
+        else:
+            print('{} процента'.format(i))
+    else:
+        print('{} процентов'.format(i))
+
+
+
